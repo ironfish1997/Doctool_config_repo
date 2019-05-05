@@ -4,8 +4,6 @@ spring:
   data:
     mongodb:
       uri: mongodb://DocTool:123456@120.79.79.151:27017/DocTool?maxPoolSize=50&connectTimeoutMS=30000&socketTimeoutMS=3000
-  application:
-    name: order-server
   rabbitmq:
     host: 120.79.79.151
     port: 5672
