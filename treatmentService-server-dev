@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://DocTool:123456@120.79.79.151:27017/DocTool?maxPoolSize=50&connectTimeoutMS=30000&socketTimeoutMS=3000
+server:
+  tomcat:
+    uri-encoding: utf-8
+logging:
+  path: ./logs/
+sso:
+  redis:
+    address: redis://myRedis:123456@120.79.79.151:6379
+    expire:
+      minite: 1440
