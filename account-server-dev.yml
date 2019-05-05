@@ -12,6 +12,11 @@ server:
   port: 8082
   tomcat:
     uri-encoding: utf-8
+  rabbitmq:
+    host: 120.79.79.151
+    port: 5672
+    username: guest
+    password: guest
 sso:
   redis:
     address: redis://myRedis:123456@120.79.79.151:6379
