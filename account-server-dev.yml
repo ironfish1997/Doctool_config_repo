@@ -9,6 +9,11 @@ spring:
     bus:
       trace:
         enabled: true
+  rabbitmq:
+    host: 120.79.79.151
+    port: 5672
+    username: guest
+    password: guest
   data:
     mongodb:
       uri: mongodb://DocTool:123456@120.79.79.151:27017/DocTool?maxPoolSize=50&connectTimeoutMS=30000&socketTimeoutMS=3000
