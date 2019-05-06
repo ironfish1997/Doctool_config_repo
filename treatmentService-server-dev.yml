@@ -2,7 +2,7 @@ env: dev
 spring:
   rabbitmq:
     host: 120.79.79.151
-    port: 5673
+    port: 5672
     username: guest
     password: guest
   data:
