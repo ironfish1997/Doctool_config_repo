@@ -13,3 +13,5 @@ zuul:
 management:
   security:
     enabled: false
+server:
+  port: 9000
