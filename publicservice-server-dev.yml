@@ -10,7 +10,9 @@ spring:
     username: guest
     password: guest
   zipkin:
-    base-url: http://localhost:9411/
+    base-url: http://120.79.79.151:9411/
+    sender:
+      type: web
   sleuth:
     sampler:
       probability: 1
