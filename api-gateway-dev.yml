@@ -37,3 +37,15 @@ spring:
   data:
     mongodb:
       uri: mongodb://DocTool:123456@120.79.79.151:27017/DocTool?maxPoolSize=50&connectTimeoutMS=30000&socketTimeoutMS=3000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMillSeconds: 5000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
