@@ -22,6 +22,10 @@ zuul:
 management:
   security:
     enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 server:
   port: 9000
 spring:
@@ -44,8 +48,4 @@ hystrix:
         isolation:
           thread:
             timeoutInMillSeconds: 5000
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+  
